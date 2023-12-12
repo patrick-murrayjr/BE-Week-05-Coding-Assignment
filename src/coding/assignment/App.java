@@ -9,7 +9,7 @@
 package coding.assignment;
 
 /**
- * <code>App</code> This class is used to test the AsteriskLogger and
+ * This class is used to test the AsteriskLogger and
  * SpacedLogger classes
  */
 public class App {
