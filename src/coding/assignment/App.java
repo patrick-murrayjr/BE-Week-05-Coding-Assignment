@@ -17,18 +17,21 @@ public class App {
         AsteriskLogger asteriskLogger = new AsteriskLogger();
         SpacedLogger spacedLogger = new SpacedLogger();
 
+        //Test text
+        String testText = "Text for testing";
+        
         // AsteriskLogger Tests
-        System.out.println("\nTesting asteriskLogger.log(\"Hello\")");
-        asteriskLogger.log("Hello");
+        System.out.printf("\nTesting asteriskLogger.log(\"%s\")\n", testText);
+        asteriskLogger.log(testText);
 
-        System.out.println("\nTesting asteriskLogger.error(\"Hello\")");
-        asteriskLogger.error("Hello");
+        System.out.printf("\nTesting asteriskLogger.error(\"%s\")\n", testText);
+        asteriskLogger.error(testText);
 
         // SpacedLogger Tests
-        System.out.println("\nTesting spacedLogger.log(\"Hello\")");
-        spacedLogger.log("Hello");
+        System.out.printf("\nTesting spacedLogger.log(\"%s\")\n", testText);
+        spacedLogger.log(testText);
 
-        System.out.println("\nTesting spacedLogger.error(\"Hello\")");
-        spacedLogger.error("Hello");
+        System.out.printf("\nTesting spacedLogger.error(\"%s\")\n", testText);
+        spacedLogger.error(testText);
     }
 }
