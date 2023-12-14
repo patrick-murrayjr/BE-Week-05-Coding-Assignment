@@ -15,7 +15,7 @@ public class SpacedLogger implements Logger {
         for (int i = 0; i < message.length(); i++) {
             spacedLog.append(message.charAt(i) + " ");
         }
-        System.out.println(spacedLog);
+        System.out.println(spacedLog.toString().trim());
     }
 
     /**
@@ -28,7 +28,7 @@ public class SpacedLogger implements Logger {
         for (int i = 0; i < message.length(); i++) {
             spacedLog.append(message.charAt(i) + " ");
         }
-        System.out.println("ERROR: " + spacedLog);
+        System.out.println("ERROR: " + spacedLog.toString().trim());
     }
 
 }
